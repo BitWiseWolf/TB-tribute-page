@@ -1,0 +1,39 @@
+/*  Setting a base font size of 10px to make easier rem calculations
+    Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so on.
+*/
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    background-color: #ddd;
+    background-image: url(https://images.unsplash.com/photo-1543321600-e1063683f483?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+}
+
+h1{
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+
+.line{
+    display: block;
+    width:70%;
+    margin: 0rem auto;
+    border-bottom: .2rem solid rgb(255, 255, 255);
+}
+
+a {
+    color: #477ca7;
+  }
+a:visited {
+    color: #9c9aa0;
+}
+a:hover{
+    color: rgb(190, 167, 255);
+}
